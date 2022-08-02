@@ -9,7 +9,7 @@ body {
 .white-container {
   position: relative;
   background-color: #fff;
-  height: 395px;
+  height: 400px;
   width: 250px;
   margin: auto;
   top: 25%;
@@ -57,5 +57,26 @@ body {
   font-size: 11px;
   font-weight: lighter;
   line-height: 1rem;
+}
 
+a {
+  text-decoration: none;
+  color: hsl(218, 44%, 22%);
+}
+
+a:hover {
+  color: grey; 
+}
+
+.my-name {
+  color: grey;
+
+  position: relative;
+  left: 20%;
+  top: 175px;
+
+  font-family: 'Outift', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 1rem;
 }
